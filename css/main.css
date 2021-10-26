@@ -68,11 +68,17 @@ a {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid red; */
+}
+
+@media screen and (min-widht: 480px) {
+  .container {
+    width: 480px;
+    border: 1px solid red;
+  }
 }
 
 .current {
@@ -614,11 +620,6 @@ address {
   margin-bottom: 30px;
 }
 
-.features {
-  display: flex;
-  justify-content: space-between;
-}
-
 .features__box {
   display: flex;
   justify-content: center;
@@ -637,6 +638,7 @@ address {
 
 .features__item {
   width: 270px;
+  margin: 0 auto;
 }
 
 .features__tittle {

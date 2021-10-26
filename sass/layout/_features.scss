@@ -1,8 +1,8 @@
 
 .features {
-    display: flex;
-    justify-content: space-between;
-  }
+    // display: flex;
+    // justify-content: space-between;
+    }
   .features__box {
     display: flex;
     justify-content: center;
@@ -12,7 +12,8 @@
     background-color: var(--secondary-bg-color);
     border-radius: 4px;
     margin-bottom: 30px;
-  }
+    
+    }
   
   .features__icon {
     width: 70px;
@@ -20,6 +21,7 @@
   }
   .features__item {
     width: 270px;
+    margin: 0 auto;
   }
   
   .features__tittle {
@@ -32,4 +34,5 @@
   .features__text {
     line-height: 1.71;
     color: var(--secondary-color-text);
+    
   }
