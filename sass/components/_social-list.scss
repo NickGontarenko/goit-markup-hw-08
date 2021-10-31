@@ -44,3 +44,10 @@
 .social__icon--white {
   fill: var(--primery-white-color);
 }
+
+
+.footer__social {
+  @media screen and (max-width: 767px) {
+    margin-top: 60px;
+    }
+  }
