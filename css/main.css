@@ -633,6 +633,12 @@ address {
   display: flex;
 }
 
+@media screen and (max-width: 767px) {
+  .header-nav {
+    display: none;
+  }
+}
+
 .header-nav__list {
   display: flex;
 }
@@ -675,6 +681,12 @@ address {
   margin-left: auto;
 }
 
+@media screen and (max-width: 767px) {
+  .header-contact {
+    display: none;
+  }
+}
+
 .header-contact__item:not(:last-child) {
   margin-right: 50px;
 }
@@ -715,6 +727,24 @@ address {
 
 .smartphone-icon:hover, .smartphone-icon:focus {
   fill: currentColor;
+}
+
+.heder-menu__btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  padding: 0;
+}
+
+@media screen and (min-width: 767px) {
+  .heder-menu__btn {
+    display: none;
+  }
+}
+
+.header-menu__icon {
+  width: 40px;
+  height: 40px;
 }
 
 .hero {
@@ -864,14 +894,7 @@ address {
 
 @media screen and (max-width: 1199px) {
   .section__work {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0);
+    display: none;
   }
 }
 
