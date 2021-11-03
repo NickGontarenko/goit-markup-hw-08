@@ -194,31 +194,48 @@
                 <source
                   media="(min-width: 1200px)"
                   srcset="
-                    ./images/work-img/website_development.jpg 1x,
-                    ./images/work-img/website_development.jpg 2x
+                    ./images/work-img/website_development.jpg    1x,
+                    ./images/work-img/website_development-2x.jpg 2x
                   "
                 />
+                <img
+                  src="./images/work-img/website_development.jpg"
+                  alt="Фото как студия создаёт сайты"
+                  width="370"
+                />
               </picture>
-              <img
-                src="./images/work-img/website_development.jpg"
-                alt="Фото как студия создаёт сайты"
-                width="370"
-              />
+
               <p class="work__text">Десктопные приложения</p>
             </li>
 
             <li class="work__item">
-              <img
-                src="./images/work-img/site_adaptation.jpg"
-                alt="Фото как студия атаптирует сайты под
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/work-img/site_adaptation.jpg    1x,
+                    ./images/work-img/site_adaptation-2x.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/work-img/site_adaptation.jpg"
+                  alt="Фото как студия атаптирует сайты под
             мобильные устройства"
-                width="370"
-              />
+                  width="370"
+                />
+              </picture>
+
               <p class="work__text">Мобильные приложения</p>
             </li>
 
             <li class="work__item">
-              <img src="./images/work-img/design.jpg" alt="Фото работы дизайнеров" width="370" />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/work-img/design.jpg 1x, ./images/work-img/design-2x.jpg 2x"
+                />
+                <img src="./images/work-img/design.jpg" alt="Фото работы дизайнеров" width="370" />
+              </picture>
               <p class="work__text">Дизайнерские решения</p>
             </li>
           </ul>
@@ -232,11 +249,34 @@
           <h2 class="section__tittle">Наша команда</h2>
           <ul class="team">
             <li class="team__item">
-              <img
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                  ./images/team-img/foto_igor.jpg 1x, 
+                  ./images/team-img/foto_igor-2x.jpg 2x"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team-img/foto_igor-tab.jpg    1x,
+                    ./images/team-img/foto_igor-tab-2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/team-img/foto_igor-mob.jpg    1x,
+                    ./images/team-img/foto_igor-mob-2x.jpg 2x
+                  "
+                />
+                <img
                 class="team__img"
                 src="./images/team-img/foto_igor.jpg"
                 alt="фото Игоря Демьяненко"
               />
+              </picture>
+              
               <div class="team__description">
                 <h3 class="team__tittle">Игорь Демьяненко</h3>
                 <p lang="en" class="team__text">Product Designer</p>
@@ -274,11 +314,32 @@
             </li>
 
             <li class="team__item">
-              <img
-                class="team__img"
-                src="./images/team-img/foto_olga.jpg"
-                alt="фото Ольги Репиной"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/team-img/foto_olga.jpg 1x, ./images/team-img/foto_olga-2x.jpg 2x"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team-img/foto_olga-tab.jpg    1x,
+                    ./images/team-img/foto_olga-tab-2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/team-img/foto_olga-mob.jpg    1x,
+                    ./images/team-img/foto_olga-mob-2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team__img"
+                  src="./images/team-img/foto_olga.jpg"
+                  alt="фото Ольги Репиной"
+                />
+              </picture>
+
               <div class="team__description">
                 <h3 class="team__tittle">Ольга Репина</h3>
                 <p lang="en" class="team__text">Frontend Developer</p>
@@ -316,11 +377,35 @@
             </li>
 
             <li class="team__item">
-              <img
-                class="team__img"
-                src="./images/team-img/foto_nikolay.jpg"
-                alt="фото Николая Тарасова"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team-img/foto_nikolay.jpg    1x,
+                    ./images/team-img/foto_nikolay-2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team-img/foto_nikolay-tab.jpg    1x,
+                    ./images/team-img/foto_nikolay-tab-2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/team-img/foto_nikolay-mob.jpg    1x,
+                    ./images/team-img/foto_nikolay-mob-2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team__img"
+                  src="./images/team-img/foto_nikolay.jpg"
+                  alt="фото Николая Тарасова"
+                />
+              </picture>
+
               <div class="team__description">
                 <h3 class="team__tittle">Николай Тарасов</h3>
                 <p lang="en" class="team__text">Marketing</p>
@@ -358,11 +443,34 @@
             </li>
 
             <li class="team__item">
-              <img
-                class="team__img"
-                src="./images/team-img/foto_mikhail.jpg"
-                alt="фото Михаила Ермакова"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team-img/foto_mikhail.jpg    1x,
+                    ./images/team-img/foto_mikhail-2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team-img/foto_mikhail-tab.jpg    1x,
+                    ./images/team-img/foto_mikhail-tab-2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/team-img/foto_mikhail-mob.jpg    1x,
+                    ./images/team-img/foto_mikhail-mob-2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team__img"
+                  src="./images/team-img/foto_mikhail.jpg"
+                  alt="фото Михаила Ермакова"
+                />
+              </picture>
               <div class="team__description">
                 <h3 class="team__tittle">Михаил Ермаков</h3>
                 <p lang="en" class="team__text">UI Designer</p>

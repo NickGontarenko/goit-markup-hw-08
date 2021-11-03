@@ -1073,6 +1073,12 @@ address {
   margin-right: 30px;
 }
 
+@media screen and (min-width: 1200px) {
+  .work__item {
+    width: 370px;
+  }
+}
+
 .work__text {
   display: flex;
   justify-content: center;
