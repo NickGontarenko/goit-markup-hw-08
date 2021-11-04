@@ -170,6 +170,8 @@ a {
 
 .social-icon_blue {
   fill: var(--accent-color);
+  width: 30px;
+  height: 30px;
 }
 
 .social__link--grey {
@@ -786,6 +788,12 @@ address {
   transform: translateX(0);
 }
 
+@media screen and (max-width: 479px) {
+  .menu-container {
+    padding-left: 0;
+  }
+}
+
 .menu-toggle {
   width: 40px;
   height: 40px;
@@ -830,6 +838,12 @@ address {
 .menu-toggle_icon-close {
   width: 40px;
   height: 40px;
+}
+
+@media screen and (max-width: 479px) {
+  .mobil__menu {
+    padding-left: 40px;
+  }
 }
 
 .mobile__item:not(:last-child) {

@@ -145,6 +145,10 @@
   &.is-open {
     transform: translateX(0);
   }
+
+  @media screen and (max-width: 479px) {
+    padding-left: 0;
+  }
 }
 
 .menu-toggle {
@@ -187,7 +191,11 @@
   width: 40px;
   height: 40px;
 }
-
+.mobil__menu{
+  @media screen and (max-width: 479px) {
+    padding-left: 40px;
+  }
+}
 
 .mobile__item {
   &:not(:last-child) {
