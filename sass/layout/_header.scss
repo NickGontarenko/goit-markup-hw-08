@@ -188,6 +188,7 @@
   height: 40px;
 }
 
+
 .mobile__item {
   &:not(:last-child) {
     margin-bottom: 32px;
@@ -204,7 +205,16 @@
 
 .mobil_current {
   color: var(--accent-color);
+
 }
+
+.wrapp-mob-menu {
+  @media screen and (max-width: 479px) {
+    display: none;
+  }
+}
+
+
 .mobil-contact__item {
   &:first-child {
     margin-bottom: 32px;
@@ -249,4 +259,11 @@
   line-height: calc(22 / 18);
   letter-spacing: 0.02em;
   color: var(--accent-color);
+}
+
+
+.wrapp-mob-icon{
+  @media screen and (min-width: 480px) {
+    display: none;
+  }
 }

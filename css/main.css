@@ -156,16 +156,20 @@ a {
   background-color: var(--accent-color);
 }
 
-.social--icon {
+.social__icon {
   width: 20px;
   height: 20px;
   fill: var(--icon-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social__link:hover .social--icon,
-.social__link:focus .social--icon {
+.social__link:hover .social__icon,
+.social__link:focus .social__icon {
   fill: var(--primery-white-color);
+}
+
+.social-icon_blue {
+  fill: var(--accent-color);
 }
 
 .social__link--grey {
@@ -844,6 +848,12 @@ address {
   color: var(--accent-color);
 }
 
+@media screen and (max-width: 479px) {
+  .wrapp-mob-menu {
+    display: none;
+  }
+}
+
 .mobil-contact__item:first-child {
   margin-bottom: 32px;
 }
@@ -887,6 +897,12 @@ address {
   line-height: calc(22 / 18);
   letter-spacing: 0.02em;
   color: var(--accent-color);
+}
+
+@media screen and (min-width: 480px) {
+  .wrapp-mob-icon {
+    display: none;
+  }
 }
 
 .hero {

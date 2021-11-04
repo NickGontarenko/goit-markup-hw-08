@@ -25,7 +25,7 @@
   }
 }
 
-.social--icon {
+.social__icon {
   width: 20px;
   height: 20px;
   fill: var(--icon-color);
@@ -34,6 +34,10 @@
   .social__link:focus & {
     fill: var(--primery-white-color);
   }
+}
+
+.social-icon_blue {
+  fill: var(--accent-color);
 }
 
 .social__link--grey {
