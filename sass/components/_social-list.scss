@@ -25,7 +25,7 @@
   }
 }
 
-.social__icon {
+.social-icon {
   width: 20px;
   height: 20px;
   fill: var(--icon-color);
@@ -51,9 +51,8 @@
   fill: var(--primery-white-color);
 }
 
-
 .footer__social {
   @media screen and (max-width: 767px) {
     margin-top: 60px;
-    }
   }
+}
